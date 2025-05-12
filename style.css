@@ -1,0 +1,51 @@
+body {
+  background-color: #ffe6f0; /* милый розовый фон */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #4b004b;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+select, input[type="radio"], input[type="checkbox"] {
+  margin: 5px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #ff80bf;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff66a3;
+}
+
+.result {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
